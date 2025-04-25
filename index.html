@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mug Cake Recipe</title>
+    <!-- add the font awesome link here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Lazy-Day Mug Cake</h1>
+				<img src="https://media-hosting.imagekit.io/8359076260ba4f9f/Screenshot%202025-04-25%2018.54.12.png?Expires=1840212837&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=bxmjGeqrzApr862Yaz0~ZcSCRh-jq~Cvj8zmJZkpWsWfm69W7Q297iRi0s9sdJRvrUpvbFWJ~fiytE9dFxNWnPpwcXdbgGwsf~Ec6-yGKmRzNUgQsSm2pVEaEUA51uySQ7ovDNWsp0g1cohoz2C~yFtwt9lbsiTLi3kTI9HfaWFthSaKzipCM1TL4QIMGgMoEU7WD8aZjoWKMYUDJVJM8pkngOvhkFZdxF1pQhZmxhE3f9qYd7j958sPzwAYDd41AGiiRXdc7~6XGlKLmYyRoNJJXCkAZHfyVG5pK1r8I-X3CO8TTT5ecYcdx919griyu02BczvJV6hdCPEXOoNULw__">
+	
+				<p>Craving something sweet but don’t want to deal with dishes or effort? 
+				This single-serve chocolate mug cake takes just five minutes to make. 
+				All you need is one mug, one spoon, and a few simple ingredients for a warm, gooey treat.</p>
+	
+			</header>
+			
+			<section onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+				<!-- add a fontawesome icon here -->
+				<h2>ingredients <i id="ingredients" class="fa fa-spoon" aria-hidden="true"></i></h2>
+				<ul>
+					<li>4 tbsp plain flour</li>
+					<li>2 tbsp unsweetened cocoa powder</li>
+					<li>2 tbsp sugar</li>
+					<li>¼ tsp baking powder</li>
+					<li>A pinch of salt</li>
+					<li>3 tbsp milk (any kind)</li>
+					<li>2 tbsp vegetable oil/melted butter</li>
+					<li>¼ tsp vanilla extract (optional)</li>
+					<li>1 tbsp chocolate chips or a few chunks (optional but highly recommended)</li>
+				</ul>
+			</section>
+			
+			<section onmouseover="preparationHover()" onmouseout="preparationNormal()">
+				<!-- add a fontawesome icon here -->
+				<h2>preparation <i id="preparation" class="fa fa-check-circle" aria-hidden="true"></i></h2>
+				<ol>
+					<li>
+	                In a large <em>microwave-safe </em>mug, mix the flour, cocoa powder, sugar, baking powder, and salt.
+					</li>
+					<li>
+						Add milk, melted butter/oil, and vanilla (if using). Stir until smooth and combined.
+					</li>
+					<li>
+						Fold in chocolate chips if you’re going for extra gooey goodness.
+					</li>
+					<li>
+						Microwave on high for 1 minute. If it looks too wet, add an extra 10–15 seconds.
+					</li>
+					<li>
+						Let cool for a minute (seriously) before diving in.
+					</li>
+				</ol>
+
+			</section>
+			
+			<footer>
+				<p>Copyright Me 2025</p>
+			</footer>
+		</div>
+		<script>
+		    function ingredientsHover(){
+		        document.getElementById("ingredients").style.fontSize = "300%"
+		    }
+		        
+		    function ingredientsNormal(){
+		        document.getElementById("ingredients").style.fontSize = "100%"
+		    }
+    		
+		    function preparationHover(){
+		        document.getElementById("preparation").style.fontSize = "300%"
+		    }
+
+		    function preparationNormal(){
+		        document.getElementById("preparation").style.fontSize = "100%"
+		    }
+        </script>
+	</body>
+</html>
